@@ -113,6 +113,10 @@
       {
         "key": "OPENHAB_THING_CLASS",
         "value": "modelId:RWL021"
+      },
+      {
+        "key": "HASS_DEVICE_MODEL",
+        "value": "Hue dimmer switch (RWL021)"
       }
     ]
   }

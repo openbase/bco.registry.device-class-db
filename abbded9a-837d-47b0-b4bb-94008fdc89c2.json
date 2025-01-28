@@ -77,6 +77,10 @@
       {
         "key": "OPENHAB_THING_CLASS",
         "value": "modelId:LCA006"
+      },
+      {
+        "key": "HASS_DEVICE_MODEL",
+        "value": "Hue color lamp (LCA006)"
       }
     ]
   }
