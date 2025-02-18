@@ -127,6 +127,10 @@
       {
         "key": "OPENHAB_THING_CLASS",
         "value": "modelId:SML003"
+      },
+      {
+        "key": "HASS_DEVICE_MODEL",
+        "value": "Hue motion sensor (SML003)"
       }
     ]
   }
