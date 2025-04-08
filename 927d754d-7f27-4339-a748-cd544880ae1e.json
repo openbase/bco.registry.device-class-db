@@ -1,0 +1,92 @@
+{
+  "id": "927d754d-7f27-4339-a748-cd544880ae1e",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Smart Radiator Thermostat X"
+        ]
+      }
+    ]
+  },
+  "description": {
+    "entry": [
+      {
+        "key": "de",
+        "value": "Smartes Heizungstermostat mit Temperatur und Luftfeuchtigkeitssensor."
+      },
+      {
+        "key": "en",
+        "value": "Smart radiator thermostat with temperature and humidity sensor."
+      }
+    ]
+  },
+  "binding_config": {
+    "meta_config": {}
+  },
+  "company": "tado°",
+  "shape": {
+    "bounding_box": {}
+  },
+  "unit_template_config": [
+    {
+      "id": "927d754d-7f27-4339-a748-cd544880ae1e_TEMPERATURE_CONTROLLER_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "TEMPERATURE_CONTROLLER_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "TEMPERATURE_CONTROLLER",
+      "service_template_config": [
+        {
+          "service_type": "TEMPERATURE_STATE_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "service_type": "TARGET_TEMPERATURE_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "927d754d-7f27-4339-a748-cd544880ae1e_TEMPERATURE_SENSOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "TEMPERATURE_SENSOR_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "TEMPERATURE_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "TEMPERATURE_ALARM_STATE_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "service_type": "TEMPERATURE_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "HASS_DEVICE_MODEL",
+        "value": "Smart Radiator Thermostat X"
+      }
+    ]
+  }
+}
