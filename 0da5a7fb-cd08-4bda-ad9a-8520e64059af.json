@@ -1,0 +1,85 @@
+{
+  "id": "0da5a7fb-cd08-4bda-ad9a-8520e64059af",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Hue Dimmer Switch Gen2"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Hue Dimmer Switch Gen2"
+        ]
+      }
+    ]
+  },
+  "product_number": "RWL022",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Hue Dimmer  Switch Gen2"
+      }
+    ]
+  },
+  "binding_config": {
+    "meta_config": {}
+  },
+  "company": "Philips",
+  "shape": {
+    "bounding_box": {}
+  },
+  "unit_template_config": [
+    {
+      "id": "0da5a7fb-cd08-4bda-ad9a-8520e64059af_BATTERY_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "BATTERY_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "BATTERY",
+      "service_template_config": [
+        {
+          "service_type": "BATTERY_STATE_SERVICE"
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "0da5a7fb-cd08-4bda-ad9a-8520e64059af_BUTTON_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "BUTTON_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "BUTTON",
+      "service_template_config": [
+        {
+          "service_type": "BUTTON_STATE_SERVICE"
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "HASS_DEVICE_MODEL",
+        "value": "Hue dimmer switch (RWL022)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "a88101ec-8676-4b79-b146-5f469e971f23",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Temperature and Humidity Sensor"
+        ]
+      }
+    ]
+  },
+  "product_number": "",
+  "description": {},
+  "binding_config": {
+    "binding_id": "",
+    "meta_config": {}
+  },
+  "company": "Aqara",
+  "shape": {
+    "bounding_box": {}
+  },
+  "unit_template_config": [
+    {
+      "id": "a88101ec-8676-4b79-b146-5f469e971f23_BATTERY_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "BATTERY_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "BATTERY",
+      "service_template_config": [
+        {
+          "service_type": "BATTERY_STATE_SERVICE"
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "a88101ec-8676-4b79-b146-5f469e971f23_TEMPERATURE_SENSOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "TEMPERATURE_SENSOR_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "TEMPERATURE_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "TEMPERATURE_ALARM_STATE_SERVICE"
+        },
+        {
+          "service_type": "TEMPERATURE_STATE_SERVICE"
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "HASS_DEVICE_MODEL",
+        "value": "lumi.weather"
+      }
+    ]
+  }
+}
