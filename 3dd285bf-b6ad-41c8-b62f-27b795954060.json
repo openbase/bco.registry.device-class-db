@@ -1,0 +1,72 @@
+{
+  "id": "3dd285bf-b6ad-41c8-b62f-27b795954060",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Philips Hue Color E14 Gen2"
+        ]
+      }
+    ]
+  },
+  "product_number": "LCE002",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Ambient light with the socket E14 of generation 2"
+      }
+    ]
+  },
+  "binding_config": {
+    "meta_config": {}
+  },
+  "company": "Philips",
+  "shape": {
+    "bounding_box": {}
+  },
+  "unit_template_config": [
+    {
+      "id": "3dd285bf-b6ad-41c8-b62f-27b795954060_COLORABLE_LIGHT_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "COLORABLE_LIGHT_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "COLORABLE_LIGHT",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "service_type": "COLOR_STATE_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "service_type": "BRIGHTNESS_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "HASS_DEVICE_MODEL",
+        "value": "Hue color lamp"
+      },
+      {
+        "key": "HASS_DEVICE_MODEL_ID",
+        "value": "LCE002"
+      }
+    ]
+  }
+}
