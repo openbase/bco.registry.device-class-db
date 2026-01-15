@@ -10,6 +10,7 @@
       }
     ]
   },
+  "product_number": "",
   "description": {
     "entry": [
       {
@@ -23,6 +24,7 @@
     ]
   },
   "binding_config": {
+    "binding_id": "",
     "meta_config": {}
   },
   "company": "tado°",
@@ -86,6 +88,10 @@
       {
         "key": "HASS_DEVICE_MODEL",
         "value": "Smart Radiator Thermostat X"
+      },
+      {
+        "key": "HASS_DEVICE_MODEL_ID",
+        "value": "1"
       }
     ]
   }
