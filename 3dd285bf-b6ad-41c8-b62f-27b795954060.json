@@ -1,19 +1,25 @@
 {
-  "id": "abbded9a-837d-47b0-b4bb-94008fdc89c2",
+  "id": "3dd285bf-b6ad-41c8-b62f-27b795954060",
   "label": {
     "entry": [
       {
         "key": "en",
         "value": [
-          "Philips Hue Color E27 Gen6"
+          "Philips Hue Color E14 Gen2"
         ]
       }
     ]
   },
-  "product_number": "LCA006",
-  "description": {},
+  "product_number": "LCE002",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Ambient light with the socket E14 of generation 2"
+      }
+    ]
+  },
   "binding_config": {
-    "binding_id": "OPENHAB",
     "meta_config": {}
   },
   "company": "Philips",
@@ -22,7 +28,7 @@
   },
   "unit_template_config": [
     {
-      "id": "abbded9a-837d-47b0-b4bb-94008fdc89c2_COLORABLE_LIGHT_0",
+      "id": "3dd285bf-b6ad-41c8-b62f-27b795954060_COLORABLE_LIGHT_0",
       "label": {
         "entry": [
           {
@@ -37,36 +43,15 @@
       "service_template_config": [
         {
           "service_type": "POWER_STATE_SERVICE",
-          "meta_config": {
-            "entry": [
-              {
-                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "color"
-              }
-            ]
-          }
+          "meta_config": {}
         },
         {
           "service_type": "COLOR_STATE_SERVICE",
-          "meta_config": {
-            "entry": [
-              {
-                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "color"
-              }
-            ]
-          }
+          "meta_config": {}
         },
         {
           "service_type": "BRIGHTNESS_STATE_SERVICE",
-          "meta_config": {
-            "entry": [
-              {
-                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "color"
-              }
-            ]
-          }
+          "meta_config": {}
         }
       ],
       "meta_config": {}
@@ -75,16 +60,12 @@
   "meta_config": {
     "entry": [
       {
-        "key": "OPENHAB_THING_CLASS",
-        "value": "modelId:LCA006"
-      },
-      {
         "key": "HASS_DEVICE_MODEL",
         "value": "Hue color lamp"
       },
       {
         "key": "HASS_DEVICE_MODEL_ID",
-        "value": "LCA006"
+        "value": "LCE002"
       }
     ]
   }
